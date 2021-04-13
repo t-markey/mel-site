@@ -15,8 +15,9 @@ export default function NavBar(){
                         Melanie Totenberg
                     </NavLink>
                     <NavLink to ="/portfolio" 
+                    activeClassName= "text-white"
                     className="inline-flex items-center py-3 px-3 my-6 rounded text-red-200 hover:text-white"
-                    activeClassName= "text-white-800">
+                    >
                         Portfolio
                     </NavLink>
                     <NavLink to ="/about" 
