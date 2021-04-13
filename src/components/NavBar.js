@@ -11,20 +11,20 @@ export default function NavBar(){
                     <NavLink to ="/"
                     exact
                     activeClassName= "text-white"
-                    className ="inflex-flex items-center py-6 px-3 mr-4 text-red-100 hover:text-green-800 text-4xl font-bold cursive tracking-widest">
+                    className ="inflex-flex items-center py-6 px-3 mr-4 text-red-100 hover:text-green-100 text-4xl font-bold cursive tracking-widest">
                         Melanie Totenberg
                     </NavLink>
                     <NavLink to ="/portfolio" 
-                    className="inline-flex items-center py-3 px-3 my-6 rounded text-red-200 hover:text-green-800"
-                    activeClassName= "text-red-100 bg-red-500">
+                    className="inline-flex items-center py-3 px-3 my-6 rounded text-red-200 hover:text-white"
+                    activeClassName= "text-white-800">
                         Portfolio
                     </NavLink>
                     <NavLink to ="/about" 
-                    className="inline-flex items-center py-3 px-3 my-6 rounded text-red-200 hover:text-green-800">
+                    className="inline-flex items-center py-3 px-3 my-6 rounded text-red-200 hover:text-white">
                         About
                     </NavLink>
                     <NavLink to ="/contact" 
-                    className="inline-flex items-center py-3 px-3 my-6 rounded text-red-200 hover:text-green-800">
+                    className="inline-flex items-center py-3 px-3 my-6 rounded text-red-200 hover:text-white">
                         Contact
                     </NavLink>
 
