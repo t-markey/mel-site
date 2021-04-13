@@ -10,6 +10,7 @@ export default function Post(){
             .fetch(`*[_type == "post"]{
                 title,
                 slug,
+                body,
                 mainImage{
                     asset->{
                     _id,
@@ -20,6 +21,7 @@ export default function Post(){
             }`)
             .then((data) => setPost(data))
             .catch(console.error);
+            
 
 
 
@@ -32,18 +34,20 @@ export default function Post(){
                 <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-8">
                     {postData && postData.map((post,index)=> (
                     <article>
-                        <Link to ={"/portfolio/" + post.slug.current} key = {post.slug.current}>
+                      
+                        <a href={`https://${post.slug.current}`}>
+
                         <span className="block h-64 relative rounded shadow leading-snug bg-white border-l-8 border-green-400"
                         key = {index}>
                             <img src={post.mainImage.asset.url} alt={post.mainImage.alt} className="w-full h-full rounder-r object-cover absolute"/>
                             <span className="block relative h-full flex justify-end items-end pr-4 pb-4">
-                                <h3 className="text-gray-200 text-lg font-blog px-3 py-4 bg-red-700 text-red-100 bg-opacity-33 rounded">
-                                    {post.body}
+                                <h3 className="text-gray-200 text-sml font-blog px-3 py-4 bg-red-400 text-red-100 bg-opacity-33 rounded">
+                                    {post.title}
                                 </h3>
 
                             </span>
                         </span>
-                        </Link>
+                        </a>
                     </article>
                     ))}
                 </div>
