@@ -5,28 +5,87 @@
 .cursive {
   font-family: "Dosis", cursive;
   font-weight: 700;
+  font-size: 40px;
+}
+.cursive2 {
+  font-family: "Dosis", cursive;
+  font-weight: 700;
+  font-size: 30px;
 }
 
 .prose img {
   margin-left: auto;
   margin-right: auto;
   border-radius: 5px;
+  font-size: 35px;
 }
 
 .home-name {
   font-size: 50px;
-  margin-left: 200px;
+  margin-left: 20px;
   justify-content: right;
-  text-align: right;
+  text-align: left;
+  margin-bottom: 30px;
 }
 
 .home-name-smaller {
-  font-size: 30px;
-  justify-content: right;
-  text-align: right;
+  font-size: 15 x;
+  justify-content: center;
+
+  text-align: left;
 }
 
 h3 {
   font-size: 14px;
   opacity: 0;
+}
+
+body {
+  background-color: #e8c2a8;
+}
+
+.holdingcontainer {
+  width: 100%;
+  display: flex;
+  background: #e8c2a8;
+  padding: 100px;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+}
+
+.photo-resize {
+  max-width: 80%;
+  height: auto;
+}
+
+.internalcontainerL {
+  flex: 1;
+  padding: 30px;
+  background: #e8c2a8;
+  align-items: center;
+  justify-content: center;
+}
+.internalcontainerR {
+  flex: 1;
+  padding: 30px;
+  background: #e8c2a8;
+  align-items: center;
+  justify-content: center;
+}
+
+@media screen and (max-width: 768px) {
+  .holdingcontainer {
+    flex-direction: column-reverse;
+  }
+}
+
+.my-social-icon .social-svg {
+  color: #ff8080;
+  background: #f77271;
+}
+
+.my-social-icon .social-svg:hover {
+  color: #f99696;
+  background: #f77271;
 }
