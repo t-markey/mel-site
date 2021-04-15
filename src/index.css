@@ -7,6 +7,12 @@
   font-weight: 700;
   font-size: 40px;
 }
+.cursive3 {
+  font-family: "Dosis", cursive;
+  font-weight: 700;
+  font-size: 30px;
+  float: right;
+}
 .cursive2 {
   font-family: "Dosis", cursive;
   font-weight: 700;
@@ -42,6 +48,10 @@ h3 {
 
 body {
   background-color: #e8c2a8;
+}
+
+main {
+  white-space: pre-line;
 }
 
 .holdingcontainer {

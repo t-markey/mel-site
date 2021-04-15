@@ -24,10 +24,10 @@ export default function NavBar(){
                     className="inline-flex items-center py-3 px-3 my-6 rounded text-white hover:text-green-100  text-2xl">
                         About
                     </NavLink>
-                    <NavLink to ="/contact" 
+                    <a href ="mailto:melanie.totenberg@gmail.com"  target="_blank"
                     className="inline-flex items-center py-3 px-3 my-6 rounded text-white hover:text-green-100  text-2xl">
                         Contact
-                    </NavLink>
+                    </a>
 
                 </nav>
                 <div className="inline-flex py-3 px-3 my-6 ">
