@@ -5,10 +5,15 @@ import SinglePost from "./components/SinglePost";
 import Post from "./components/Post";
 import Project from "./components/Project";
 import NavBar from "./components/NavBar";
+import Footer from "./components/Footer";
 
 
 function App() {
   return(
+
+  <div className ="page-container">
+    <div className ="content-wrap">
+   
    <BrowserRouter>
    <NavBar />
    <Switch>
@@ -17,10 +22,12 @@ function App() {
     {/* <Route component={SinglePost} path="/post/:slug" /> */}
     <Route component={Post} path="/portfolio" />
     <Route component={Project} path="/contact" />
-
-
-   </Switch>
+   </Switch>  
    </BrowserRouter>
+   </div>
+   <Footer />
+   </div>
+
   )
 }
 

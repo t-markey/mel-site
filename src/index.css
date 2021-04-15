@@ -15,8 +15,8 @@
 }
 .cursive2 {
   font-family: "Dosis", cursive;
-  font-weight: 700;
-  font-size: 30px;
+  font-weight: 50;
+  font-size: 20px;
 }
 
 .prose img {
@@ -58,7 +58,10 @@ main {
   width: 100%;
   display: flex;
   background: #e8c2a8;
-  padding: 100px;
+  padding: 10px;
+  padding-left: 220px;
+  padding-right: 220px;
+  padding-bottom: 220px;
   flex-direction: row;
   align-items: center;
   justify-content: center;
@@ -71,14 +74,14 @@ main {
 
 .internalcontainerL {
   flex: 1;
-  padding: 30px;
+  padding: 10px;
   background: #e8c2a8;
   align-items: center;
   justify-content: center;
 }
 .internalcontainerR {
   flex: 1;
-  padding: 30px;
+  padding: 10px;
   background: #e8c2a8;
   align-items: center;
   justify-content: center;
