@@ -39,7 +39,7 @@ export default function About(){
 
             
                         <div className="internalcontainerL">
-                        <img src = {selfie} alt = "Melanie Photo" className="rounded photo-resize" />
+                        <img src = {selfie} alt = "Melanie Photo" className="rounded photo-resize shadow-xl" />
   
                         </div>
 

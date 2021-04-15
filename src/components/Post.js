@@ -11,6 +11,7 @@ export default function Post(){
                 title,
                 slug,
                 body,
+                category,
                 mainImage{
                     asset->{
                     _id,
@@ -28,6 +29,10 @@ export default function Post(){
     },[]);
     return (
         <main className =" min-h-screen p-12">
+
+
+
+            
             <section className="container mx-auto">
                 <h1 className= "text-5xl flex justify-center cursive mb-5">Recently Published Works</h1>
                 <h2 className="text-lg text-gray-600 flex justify-center mb-20">Non Profit, Technology & E-Commerce</h2>
@@ -53,6 +58,9 @@ export default function Post(){
                     ))}
                 </div>
             </section>
+
+
+
         </main>
 
 

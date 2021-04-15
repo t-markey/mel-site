@@ -32,7 +32,7 @@ export default function NavBar(){
                 </nav>
                 <div className="inline-flex py-3 px-3 my-6 ">
                     <SocialIcon url="https://www.linkedin.com/in/melanie-totenberg/" className="mr-4 my-social-icon" target = "_blank" fgColor="#fff" bgColor="currentColor" style = {{height:40, width:40 }}/>
-                    <SocialIcon url="mailto:melanie.totenberg@gmail.com" className="mr-4" target = "_blank" fgColor="#fff" bgColor="#ff8080" style = {{height:40, width:40 }}/>
+                    <SocialIcon url="mailto:melanie.totenberg@gmail.com" className="mr-4 my-social-icon" target = "_blank" fgColor="#fff" bgColor="currentColor" style = {{height:40, width:40 }}/>
                     
                 </div>
             </div>
