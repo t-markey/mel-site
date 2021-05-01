@@ -63,12 +63,12 @@ export default function Post(){
                       
                         <a target="_blank" rel="noreferrer" href={`https://${post.slug.current}`}>
 
-                        <span className="block h-40 relative rounded shadow-xl leading-snug bg-white border-l-8  border-r-8 border-t-3  border-white-400"
+                        <span className="block h-60  relative rounded shadow-2xl leading-snug bg-white border-l-4  border-r-4 border-t-3  border-black"
                         key = {index}>
                             <img src={post.mainImage.asset.url} alt={post.mainImage.alt} className="w-full h-full rounder-r object-cover absolute "/>
-                            <span className="block relative h-full flex justify-end items-end pr-4 pb-4">
+                            <span className="block relative h-full flex justify-center pl-2 items-end pr-4 pb-4">
                                 <h3 
-                                className=" hover:opacity-100 text-gray-800 text-sml font-blog px-3 py-4 hover:bg-red-400 text-gray-0 bg-opacity-2 rounded hover:text-white ">
+                                className=" hover:opacity-100 text-gray-800 text-sml font-blog px-3 py-4  hover:bg-red-400 text-gray-0 bg-opacity-1 rounded hover:text-white opacity-80 bg-white  border-black border-1 hover:border-0">
                                     {post.title}
                                 </h3>
 
@@ -88,12 +88,12 @@ export default function Post(){
                     <article >
                       <br/>
                         <a target="_blank" rel="noreferrer" href={`https://${post.slug.current}`}>
-                        <span className="block h-40 relative rounded shadow-xl leading-snug bg-white border-l-8  border-r-8 border-t-3  border-white-400"
+                        <span className="block h-60 relative rounded shadow-2xl leading-snug bg-white border-l-4  border-r-4 border-t-3  border-black"
                         key = {index}>
                             <img src={post.mainImage.asset.url} alt={post.mainImage.alt} className="w-full h-full rounder-r object-cover absolute "/>
-                            <span className="block relative h-full flex justify-end items-end pr-4 pb-4">
+                            <span className="block relative h-full flex justify-center pl-2 items-end pr-4 pb-4">
                                 <h3 
-                                className=" hover:opacity-100 text-gray-800 text-sml font-blog px-3 py-4 hover:bg-red-400 text-gray-0 bg-opacity-2 rounded hover:text-white ">
+                                className=" hover:opacity-100 text-gray-800 text-sml font-blog px-3 py-4 hover:bg-red-400 text-gray-0 bg-opacity-2 rounded hover:text-white  opacity-80 bg-white  border-black border-1 hover:border-0">
                                     {post.title}
                                 </h3>
 
