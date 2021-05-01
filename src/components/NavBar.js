@@ -5,28 +5,28 @@ import {SocialIcon} from "react-social-icons";
 export default function NavBar(){
     return (
         <header className="bg-#fff-800 ">
-            <div className="container mx-auto flex justify-between  ">
+            <div className="container mx-auto flex justify-between ">
                 <nav className = "flex">
 
                     <NavLink to ="/"
                     exact
                     activeClassName= "text-white"
-                    className ="inflex-flex items-center py-6 px-3 mr-4 text-white hover:text-black text-5xl font-bold cursive tracking-widest">
+                    className =" mobilemenu inflex-flex items-center py-6 px-3 mr-4 text-white hover:text-black text-5xl font-bold cursive tracking-widest ">
                         Melanie Totenberg
                     </NavLink>
                     <NavLink to ="/portfolio" 
-                    activeClassName= "text-black"
-                    className="inline-flex items-center py-1 px-3 my-1 rounded text-white hover:text-black text-2xl"
+                  
+                    className="mobilemenusub inline-flex items-center py-1 px-3 my-1 rounded text-white hover:text-black text-2xl "
                     >
                         Portfolio
                     </NavLink>
                     <NavLink to ="/about" 
-                    activeClassName= "text-black"
-                    className="inline-flex items-center py-1 px-3 my-1 rounded text-white hover:text-black text-2xl">
+                    
+                    className="mobilemenusub inline-flex items-center py-1 px-3 my-1 rounded text-white hover:text-black text-2xl">
                         About
                     </NavLink>
                     <a href ="mailto:melanie.totenberg@gmail.com"  target="_blank " rel="noreferrer"
-                    className="inline-flex items-center py-1 px-3 my-1 rounded text-white hover:text-black  text-2xl">
+                    className=" mobilemenusub inline-flex items-center py-1 px-3 my-1 rounded text-white hover:text-black  text-2xl">
                         Contact
                     </a>
 

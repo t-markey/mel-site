@@ -35,7 +35,9 @@ export default function About(){
             <body>
                 <div>
             {/* <h1 className =" text-algign:righttext-lg text-black-200  cursive leading-none lg:leading-snug home-name "> Writer & Proofreader</h1> */}
+            <div className = "fixmobiletitles">
             <h1 className ="cursive3 text-xlg text-black mb-4 center mr-20">Writer & Proofreader</h1>
+            </div>
                 </div>
                 
 
