@@ -1,9 +1,12 @@
 .main-footer {
   color: white;
-  background-color: rgb(84, 72, 128);
+  background-color: #426899;
   padding-top: 3em;
   padding-bottom: 1em;
 
+  display: flex;
+  justify-content: center;
+  align-items: center;
   margin-top: 200px;
   position: relative;
   bottom: 0;
@@ -17,11 +20,11 @@
 }
 
 .my-social-icon-foot .social-svg {
-  color: #2c244f;
+  color: #284c7a;
   background: #7860ce;
 }
 
 .my-social-icon-foot .social-svg:hover {
-  color: #7d6fb3;
+  color: #507bb3;
   background: #7860ce;
 }

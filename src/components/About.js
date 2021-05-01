@@ -1,6 +1,5 @@
 import React, {useEffect, useState}from "react";
 import sanityClient from "../client.js";
-import pretty from "../plant.jpg";
 import imageUrlBuilder from "@sanity/image-url";
 import BlockContent from "@sanity/block-content-to-react";
 import selfie from "../selfie.png";
@@ -64,9 +63,6 @@ export default function About(){
                     </div>
                     
                     
-                    
-                
-       
             </body>
         </main>
 
