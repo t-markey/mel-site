@@ -54,14 +54,32 @@ main {
   white-space: pre-line;
 }
 
+@media screen and (min-width: 767px) {
+  .othercontainer {
+    padding-left: 200px;
+    padding-right: 200px;
+    padding-bottom: 10px;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  nav {
+    flex-direction: column;
+    flex-wrap: wrap;
+  }
+  #NavLink {
+    padding-top: 3000px;
+    padding-bottom: 0.25rem;
+    margin-top: 0.5rem;
+    margin-bottom: 0.5rem;
+  }
+}
+
 .holdingcontainer {
   width: 100%;
   display: flex;
   background: #e8c2a8;
   padding: 10px;
-  padding-left: 220px;
-  padding-right: 220px;
-  padding-bottom: 220px;
   flex-direction: row;
   align-items: center;
   justify-content: center;

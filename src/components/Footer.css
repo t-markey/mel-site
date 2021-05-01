@@ -28,3 +28,9 @@
   color: #507bb3;
   background: #7860ce;
 }
+
+@media screen and (max-width: 767px) {
+  p {
+    margin-left: 20px;
+  }
+}
